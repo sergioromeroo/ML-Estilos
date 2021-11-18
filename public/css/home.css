@@ -1,0 +1,105 @@
+.body{
+    background-color: var(--color-grisClaro);
+    margin: 0px 0px;
+}
+/*HEADER*/
+.header{
+    background-color: var(--color-amarillo);
+}
+.header div{
+    margin-top: 10px;
+}
+.header p{
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-align: center;
+}
+.header ul{
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 0px 0px 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+.header a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.header .burger-menu{
+    color: var(--color-grisClaro);
+    background-color: var(--color-celeste);
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 20px 190px 20px;
+}
+.header .banner{
+    height: 150px;
+    width: 100%;
+}
+/*MAIN*/
+.main .article{
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main .titulares{
+    font-size: 24px;
+    font-family: 'Roboto';
+    padding-left: 10px;
+}
+.main .precio{
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-left: 10px;
+}
+.main .descuento{
+    font-size: 16px;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-left: 10px;
+}
+.main .descripcion{
+    font-size: 16px;
+    font-family: 'Roboto';
+    padding: 0px 0px 10px 10px;
+}
+/*FOOTER*/
+.footer{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 5px;
+
+}
+.footer section{
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+.footer section i{
+    color: var(--color-celeste);
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: 2em;
+    line-height: 0px;
+}
+.footer .title{
+    color: var(--color-grisOscuro);
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.footer .info{
+    color: var(--color-grisOscuro);
+    font-size: 13px;
+    margin: 0px 55px;
+}
+.footer .copyright{
+    text-align: left;
+    padding: 10px 0px;
+    margin-left: 10px;
+    color: var(--color-grisOscuro);
+    font-size: 10px;
+    font-family: 'Roboto';
+}
